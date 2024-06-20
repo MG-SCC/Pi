@@ -75,4 +75,7 @@ Next, we looked over and made some changes to include drawer information on the 
 After making the necessary adjustments to the program.cs file, we were able to obtain the desired output. 
 
 0750
-Created database
+
+	we tried to Add rating colomn in table and rating.
+	we tried to Add search option.
+
