@@ -79,3 +79,9 @@ After making the necessary adjustments to the program.cs file, we were able to o
 	we tried to Add rating colomn in table and rating.
 	we tried to Add search option.
 
+1510
+Attempted to add Admin view. Encountering the following errors:
+'HttpRequest' does not contain a definition for 'Url' and no accessible extension method 'Url' accepting a first argument of type 'HttpRequest' could be found (are you missing a using directive or an assembly reference?)	
+'IUrlHelper' does not contain a definition for 'HttpRouteUrl' and no accessible extension method 'HttpRouteUrl' accepting a first argument of type 'IUrlHelper' could be found (are you missing a using directive or an assembly reference?)
+
+
