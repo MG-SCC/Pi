@@ -52,10 +52,27 @@ In the Add New Item - Furnitures dialog:
 
 2330
 Added model
+We created a class named Furniture.ca and added it to the models folder during this task. 
+In order to add the Furniture type, price, rating, and ratings, we also updated the code. 
+Next, we updated the controller drawer controller.cs file with the newly scaffolded item, which allowed us to add the NuGet packages. 
+Ultimately, we added the migration initialCreate by going to the NuGet package manager> package manager console. 
+We will test the application once the database has been created and updated, and we will look over each code once we have the required output from the automatic code that was generated during the migration process.
+>First Move
+I navigated to Tools > NuGet Package Manager > Package Manager Console to open the Package Manager Console (PMC).
+Launch the application.
+
+Migration file: PiContextModelSnapshot.cs
+Migration file: 20240620021511_InitialCreate.cs
+
 
 2024-06-19
 0640
 Created database
+
+We started this task by using the SQL Server Object Explorer to look over the database. 
+This made it possible for us to obtain the table we had built in the earlier phase, which included details about the different kinds of Mattress, the cost, the rating, and the reviews. Next, we created a new class in the models folder and named it SeedData. 
+Next, we looked over and made some changes to include drawer information on the output webpage. 
+After making the necessary adjustments to the program.cs file, we were able to obtain the desired output. 
 
 0750
 Created database
